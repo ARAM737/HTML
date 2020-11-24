@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>пр 3(3)</title>
+	<style>
+		.shadow1{
+			box-shadow: 5px 5px 10px black;
+			widht: 800px;
+			height: 400px;
+		}
+		.shadow2{
+			box-shadow:; 
+			width: 800px;
+			height: 400px;
+			box-shadow: 5px 5px red,
+						-5px -5px blue,
+						 10px 10px 5px 2px green,
+						 0 0 5px 5px;
+			transition: box-shadow 0.25s ease-out 0.25s;
+		}
+		.shadow2:hover{
+			box-shadow: 5px 5px black,
+						-5px -5px gray,
+						10px 10px 5px 2px yellow,
+						0 0 5px 5px blue;
+		}
+		.block{
+			background: gray;
+			width:400px;
+			height: 200px;
+			text-align: center;
+			padding: 200px;
+			box-shadow: 0 0 5px 2px red;
+			font-size: 2em;
+			font-family: Arial;
+			transition: background 0.25s ease-out 0.25s, color 0.25s ease-out 0.25s;	
+		}
+		.block:hover{
+			background: blue;
+			color: white;
+		}
+	</style>
+</head>
+<body>
+<p>
+<img class="shadow1" src="Retrowave.jpg" alt="Retrowave">
+</p>
+<p>
+<img class="shadow2" src="Ryzen.jpg" alt="pyrkin">
+</p>
+<div class="block">Задача 3. Создать блок &lt;div&gt; с текстом и задать внутренний стиль для блока – задать цвет фона, параметры тени, отступы внутри блока.</div>
+</body>
+</html>

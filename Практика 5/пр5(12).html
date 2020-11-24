@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Практика 5(12)</title>
+</head>
+<body>
+<script>
+/*12.1*/
+
+var a1 = prompt('Введите любое число в диапозоне [0,5]');
+if (a1 > 0 && a1 < 5) {
+alert('Верно');
+} else {
+alert('Не верно');
+}
+
+/*12.2*/
+
+var a2 = prompt('Выберите одно из этих чисел 5, 0, -3, 2');
+if (a2 == 0 || a2 == 2) {
+a2 += 7;
+} else if (a2 != 0 || a2 != 2) {
+a2 /= 10;
+}
+alert(a2);
+
+/*12.3*/
+
+var a3 = 3;
+var b3 = 5;
+if (a3 <= 1 && b3 >= 3) {
+alert(a3 + b3)
+} else {
+alert(a3 - b3)
+}
+
+/*12.4*/
+
+var a4 = 5;
+var b4 = 3;
+if ((a4 > 2 && a4 < 11) || (b4 >= 6 && b4 < 14)) {
+alert('Верно')
+} else {
+alert('Не верно')
+}
+
+/*=========*/
+</script>
+</body>
+</html>

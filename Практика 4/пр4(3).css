@@ -1,0 +1,42 @@
+.table1{
+border: solid;
+border-color: #00BFFF;
+border-collapse: collapse;
+}
+
+.th1{
+border-bottom: dashed;
+border-color: #00BFFF;
+border-width: 0.2mm;
+padding: 20px;
+text-align: left;
+color: #000FFF;
+background-color: rgba(0,191,255,0.3);
+
+}
+
+.tr1:hover{
+background-color: #00BFFF;
+}
+.company{
+background-color:white;
+}
+
+/*===============================*/
+/*===============================*/
+
+.table2{
+border-collapse: separate;
+border-spacing: 30px 21px;
+text-align:left;
+}
+
+.first{
+border-bottom-style: solid;
+border-bottom-color: blue;
+color:blue;
+}
+
+.th2{
+color: #77a1b5;
+}

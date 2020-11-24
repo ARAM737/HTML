@@ -1,0 +1,13 @@
+t{
+	font-family: arial;
+	font-size: 1.5em;
+}
+
+td{
+	border: none;
+	transition: border ease-out;
+}
+
+td:hover{
+	border: 2px solid black;
+}

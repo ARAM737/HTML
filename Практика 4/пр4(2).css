@@ -1,0 +1,36 @@
+.mod {
+text-decoration: underline;
+text-decoration-style: solid;
+text-decoration-color: #7236a4;
+color: #7236a4;
+}
+.mod_none{
+color: #7236a4;
+}
+.mod1 {
+text-decoration:underline;
+text-decoration-style: double;
+text-decoration-color: #09b251;
+color: #09b251;
+}
+.mod_1{
+color: #09b251;
+}
+.mod2 {
+text-decoration: underline;
+text-decoration-style: dashed;
+text-decoration-color: #ff1c22;
+color: #ff1c22;
+}
+.mod_2{
+color: #ff1c22;
+}
+.mod3 {
+text-decoration: underline;
+text-decoration-style: dotted;
+text-decoration-color: #19b5f1;
+color: #19b5f1;
+}
+.mod_3{
+color: #19b5f1 ;
+}

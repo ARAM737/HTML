@@ -1,0 +1,56 @@
+.ramka{
+
+	width: 500px;
+	height: 400px;
+	display: flex;
+	position: relative;
+}
+
+.margin1{
+	margin-right: 48px;
+}
+
+.first{
+	bottom: 0;
+	text-align: center;
+	background: red;
+	width: 40px;
+	height: 10%;
+	position: absolute;
+}
+
+.second{
+	bottom: 0;
+	text-align: center;
+	background: orange;
+	width: 40px;
+	height: 25%;
+	position: absolute;
+}
+
+.third{
+	bottom: 0;
+	text-align: center;
+	background: yellow;
+	width: 40px;
+	height: 50%;
+	position: absolute;
+}
+
+.fourth{
+	bottom: 0;
+	text-align: center;
+	background: yellowgreen;
+	width: 40px;
+	height: 75%;
+	position: absolute;
+}
+
+.fifth{
+	bottom: 0;
+	text-align: center;
+	background: green;
+	width: 40px;
+	height: 100%;
+	position: absolute;
+}
