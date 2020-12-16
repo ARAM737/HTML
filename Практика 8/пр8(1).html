@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Практика 8(1)</title>
+	<style>
+    #priora {
+      position: relative;
+      width: 90%px;
+	  height: 150px;
+    }
+  	</style>
+</head>
+<body>
+<img id="priora" src="priora.png">
+<script>
+    priora.onclick = function() {
+      let start = Date.now();
+
+      let timer = setInterval(function() {
+        let timePassed = Date.now() - start;
+
+        priora.style.left = timePassed / 5 + 'px';
+
+        if (timePassed > 7000) clearInterval(timer);
+
+      }, 20);
+    }
+</script>
+</body>
+</html>
